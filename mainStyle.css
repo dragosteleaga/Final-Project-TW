@@ -57,3 +57,16 @@ section h1{
 section p{
     font-size: 1.5rem;
 }
+section#EQS{
+    background: url(https://www.carscoops.com/wp-content/uploads/2020/12/2022-Mercedes-Benz-EQS-30.jpg) no-repeat center center/cover;
+}
+section#S-Class{
+    background: url(https://www.carscoops.com/wp-content/uploads/2021/05/2022-Mercedes-Maybach-S680-21.jpg) no-repeat center center/cover;
+}
+
+section#GLE-Class{
+    background: url(http://www.newcarcars.com/wp-content/uploads/2020/03/2020-Mercedes-AMG-GLE-53-UK-Spec-Front-Three-Quarter-Wallpaper2.jpg) no-repeat center center/cover;
+}
+section#G-Class{
+    background: url(https://cimg0.ibsrv.net/ibimg/hgm/1881x1058-1/100/757/inkas-armored-2020-mercedes-amg-g63-limousine_100757132.jpg) no-repeat center center/cover;
+}
