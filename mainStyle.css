@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #333;
     color: aliceblue;
     line-height: 1.6;
@@ -12,26 +13,29 @@ body{
     background-color: transparent;
 
 }
-button{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     padding: 10px 25px;
     border: none;
     border-radius: 20%;
-    cursor:pointer;
+    cursor: pointer;
     transition: all 0.3s ease 0s;
     background-color: transparent;
     background-repeat: no-repeat;
     overflow: hidden;
     outline: none;
-    color:white;
+    color: white;
 
 }
-button:hover{
+
+button:hover {
     background-color: rgb(27, 26, 26);
-    color:white;
+    color: white;
 }
-.container{
+
+.container {
     width: 100%;
     height: 100%;
     overflow-y: scroll;
@@ -39,35 +43,41 @@ button:hover{
     scroll-snap-type: y mandatory;
 
 }
-.navbar{
+
+.navbar {
     position: fixed;
-    top:0;
+    top: 0;
     z-index: 1;
     display: flex;
     width: 100%;
     height: 40px;
     background-color: rgba(39, 42, 49, 0.7);
 }
+
 .navbar ul {
     display: flex;
     list-style: none;
     width: 100%;
     justify-content: space-between;
 }
-.navbar ul li{
+
+.navbar ul li {
     margin: 0 1rem;
     padding: 1 rem;
 }
-.navbar ul li a{
+
+.navbar ul li a {
     text-decoration: none;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     transition: all 0.3s ease 0s;
 }
-.navbar ul li a:hover{
-    color:rgb(146, 146, 146);
+
+.navbar ul li a:hover {
+    color: rgb(146, 146, 146);
 }
-section{
+
+section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -77,48 +87,79 @@ section{
     scroll-snap-align: center;
 
 }
-section h1{
+
+section h1 {
     font-size: 4rem;
     margin-left: 45%;
 
 }
-section p{  
+
+section p {
     font-size: 1.5rem;
     background-color: rgba(235, 234, 234, 0.096);
     text-align: right;
 }
-section#EQS{
+
+section#EQS {
     background: url(https://www.carscoops.com/wp-content/uploads/2020/12/2022-Mercedes-Benz-EQS-30.jpg) no-repeat center center/cover;
 }
-section#EQS h1{
+
+section#EQS h1 {
     margin-top: 75px;
 }
-section#EQS p{
+
+section#EQS p {
     text-align: center;
     margin-left: 10em;
     background-color: rgba(235, 234, 234, 0.048);
 }
-section#S-Class{
+
+section#S-Class {
     background: url(https://www.carscoops.com/wp-content/uploads/2021/05/2022-Mercedes-Maybach-S680-21.jpg) no-repeat center center/cover;
 }
-section#S-Class p{
-    color:black;
+
+section#S-Class p {
+    color: black;
 
 }
-section#GLE-Class{
+
+section#GLE-Class {
     background: url(http://www.newcarcars.com/wp-content/uploads/2020/03/2020-Mercedes-AMG-GLE-53-UK-Spec-Front-Three-Quarter-Wallpaper2.jpg) no-repeat center center/cover;
 }
-section#GLE-Class p{
-    color:black;
+
+section#GLE-Class p {
+    color: black;
 
 }
-section#G-Class{
+
+section#G-Class {
     background: url(https://cimg0.ibsrv.net/ibimg/hgm/1881x1058-1/100/757/inkas-armored-2020-mercedes-amg-g63-limousine_100757132.jpg) no-repeat center center/cover;
 }
-section#G-Class p{
-    color:white;
+
+section#G-Class p {
+    color: white;
     background-color: rgba(3, 3, 3, 0.4);
     text-align: center;
     margin-left: 50em;
+
+}
+
+section button {
+    margin-top: 35em;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.651);
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+section button:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+  }
+
+section#G-Class button {
+    margin-top: 400px;
 
 }
