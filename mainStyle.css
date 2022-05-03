@@ -29,3 +29,15 @@ body{
     width: 100%;
     justify-content: space-around;
 }
+.navbar ul li{
+    margin: 0 1rem;
+    padding: 1 rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: beige;
+}
+.navbar ul li a:hover{
+    color:rgb(127, 204, 255);
+}
