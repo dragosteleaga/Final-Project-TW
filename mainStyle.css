@@ -24,6 +24,7 @@ button{
     background-repeat: no-repeat;
     overflow: hidden;
     outline: none;
+    color:white;
 
 }
 button:hover{
@@ -60,11 +61,11 @@ button:hover{
 .navbar ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: rgb(255, 255, 255);
     transition: all 0.3s ease 0s;
 }
 .navbar ul li a:hover{
-    color:rgb(127, 204, 255);
+    color:rgb(146, 146, 146);
 }
 section{
     display: flex;
@@ -81,19 +82,43 @@ section h1{
     margin-left: 45%;
 
 }
-section p{
+section p{  
     font-size: 1.5rem;
+    background-color: rgba(235, 234, 234, 0.096);
+    text-align: right;
 }
 section#EQS{
     background: url(https://www.carscoops.com/wp-content/uploads/2020/12/2022-Mercedes-Benz-EQS-30.jpg) no-repeat center center/cover;
 }
+section#EQS h1{
+    margin-top: 75px;
+}
+section#EQS p{
+    text-align: center;
+    margin-left: 10em;
+    background-color: rgba(235, 234, 234, 0.048);
+}
 section#S-Class{
     background: url(https://www.carscoops.com/wp-content/uploads/2021/05/2022-Mercedes-Maybach-S680-21.jpg) no-repeat center center/cover;
 }
+section#S-Class p{
+    color:black;
 
+}
 section#GLE-Class{
     background: url(http://www.newcarcars.com/wp-content/uploads/2020/03/2020-Mercedes-AMG-GLE-53-UK-Spec-Front-Three-Quarter-Wallpaper2.jpg) no-repeat center center/cover;
 }
+section#GLE-Class p{
+    color:black;
+
+}
 section#G-Class{
     background: url(https://cimg0.ibsrv.net/ibimg/hgm/1881x1058-1/100/757/inkas-armored-2020-mercedes-amg-g63-limousine_100757132.jpg) no-repeat center center/cover;
+}
+section#G-Class p{
+    color:white;
+    background-color: rgba(3, 3, 3, 0.4);
+    text-align: center;
+    margin-left: 50em;
+
 }
