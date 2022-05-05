@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-color: rgba(116, 114, 114, 0.486);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .navbar {
     position: fixed;
     top: 0;
@@ -35,7 +38,14 @@
 .navbar ul li a:hover {
     color: rgb(146, 146, 146);
 }
-
+.mainGrid{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 1fr 50px;
+    gap:5px;
+}
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 20fr 1fr;
@@ -44,6 +54,7 @@
     margin-top: 100px;
     margin-left: 60px;
 }
+
 
 .grid-item {
     text-align: center;
@@ -80,4 +91,57 @@ img {
 
 .grid-container .round {
     border-radius: 50%;
+}
+.wrapper {
+    
+    text-align: center;
+    color: #ddd;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-left: 100px;
+    margin-top: 400px;
+  }
+  .wrapper:hover div{
+    display: block;
+  }
+  
+  .listHidden{
+    display: none;
+  }
+  .wrapper button{
+    width: 150px;
+    height: 100px;
+    border: none;
+    border-radius: 52%;
+    list-style-type: "";
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    color: white;
+    background-color: rgba(83, 83, 83, 0.39);
+  }
+  .wrapper button:hover {
+    background-color: rgb(27, 26, 26);
+    color: white;
+}
+#dateMasina{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-top: 100px;
+    
+}
+#dateMasina span{
+    padding: 10px;
+    font-size: 30px;
+    
+}
+
+#dateMasina h5{
+    padding: 20px;
+    text-align: center;
+    font-size: 70px;
+    font-weight:100;
+    
 }
