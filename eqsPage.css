@@ -109,10 +109,10 @@ img {
     display: none;
   }
   .wrapper button{
-    width: 150px;
+    width: 200px;
     height: 100px;
     border: none;
-    border-radius: 52%;
+    border-radius: 25%;
     list-style-type: "";
     cursor: pointer;
     transition: all 0.3s ease 0s;
@@ -144,4 +144,50 @@ img {
     font-size: 70px;
     font-weight:100;
     
+}
+.plaseazaComanda{
+    width: 150px;
+    height: 100px;
+    border: none;
+    border-radius: 25%;
+    list-style-type: "";
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    color: white;
+    background-color: #1423;
+    grid-row-start: 5;
+    grid-column-start: 2;
+}
+.plaseazaComanda:hover{
+    background-color: rgb(27, 26, 26);
+    color: white;
+
+}
+.stergeTitlu{
+    width: 150px;
+    height: 100px;
+    border: none;
+    border-radius: 25%;
+    list-style-type: "";
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+    color: white;
+    background-color: #1423;
+    grid-row-start: 5;
+    grid-column-start: 1;
+    margin-left: 1000px;
+}
+.stergeTitlu:hover{
+    background-color: rgb(27, 26, 26);
+    color: white;
+
+}
+#dateMasina p span{
+    font-size: 15px;
 }
