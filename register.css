@@ -21,6 +21,7 @@
     margin: 6% auto;
     background: #fff;
     padding: 5px;
+    overflow: hidden;
 
 }
 
@@ -93,4 +94,10 @@ span {
     font-size: 12px;
     bottom: 68px;
     position: absolute;
+}
+#login{
+    left:50px;
+}
+#register{
+    left:450px;
 }
