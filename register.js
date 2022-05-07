@@ -63,6 +63,12 @@ buttonSubmitRegister.addEventListener("click",(ev)=>{
         alert("Email ul nu a fost valid !");
     }
 })
+console.log(document.querySelector("#userId"));
+function changename(){
+    localStorage.setItem("name",document.querySelector("#userId").value);
+    document.querySelector("h1").innerHTML="Welcome "+localStorage.getItem("name");
+}
+setInterval(changename, 500);
 
 
 }
