@@ -17,6 +17,10 @@ app.get("/", (req, res) => {
 app.get("/register", (req, res) => {
 	res.render("register");
 })
+app.get("/eqsPage", (req, res) => {
+	res.render("eqsPage");
+})
+
 app.post("/register", async (req, res) => {
 
 	console.log(req.body.username);
@@ -33,7 +37,12 @@ app.post("/register", async (req, res) => {
 
 		if (err) throw err;
 	});
+	
 })
+app.get('*', (req, res)=>{
+	res.render("eror404");
+});
+  
 app.listen(8000);
 
 
